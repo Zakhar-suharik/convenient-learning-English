@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Список слів</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Список слів</h1>
+        <div class="controls">
+            <button id="showEnglish">Показати / Приховати Англійські слова</button>
+            <button id="showTranslation">Показати / Приховати Переклад</button>
+            <button id="showLearned">Показати / Приховати Вивчені Слова</button>
+        </div>
+        <div class="input-form">
+            <input type="text" id="englishWord" placeholder="Введіть англійське слово">
+            <input type="text" id="translation" placeholder="Введіть переклад">
+            <button id="addWord">Додати слово</button>
+        </div>
+        <div class="word-lists">
+            <div class="word-list" id="englishList">
+                <h2>Англійські слова</h2>
+                <ul id="englishWords">
+                    <li>
+                        Hello
+                        <div>
+                            <button class="learnButton" data-word="Hello">Вивчено</button>
+                            <button class="deleteButton" data-word="Hello">Видалити</button>
+                            <button class="speakButton" data-word="Hello">Озвучити</button>
+                        </div>
+                    </li>
+                    <li>
+                        World
+                        <div>
+                            <button class="learnButton" data-word="World">Вивчено</button>
+                            <button class="deleteButton" data-word="World">Видалити</button>
+                            <button class="speakButton" data-word="World">Озвучити</button>
+                        </div>
+                    </li>
+                    <li>
+                        Apple
+                        <div>
+                            <button class="learnButton" data-word="Apple">Вивчено</button>
+                            <button class="deleteButton" data-word="Apple">Видалити</button>
+                            <button class="speakButton" data-word="Apple">Озвучити</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="word-list" id="translationList">
+                <h2>Переклад</h2>
+                <ul id="translations">
+                    <li>Привіт <button class="deleteButton" data-word="Привіт">Видалити</button></li>
+                    <li>Світ <button class="deleteButton" data-word="Світ">Видалити</button></li>
+                    <li>Яблуко <button class="deleteButton" data-word="Яблуко">Видалити</button></li>
+                </ul>
+            </div>
+            <div class="word-list" id="learnedList">
+                <h2>Вивчені слова</h2>
+                <ul id="learnedWords"></ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

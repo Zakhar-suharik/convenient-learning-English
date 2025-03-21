@@ -1,0 +1,134 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f8f8f8; /* Ніжний сірий фон */
+  color: #333; /* Темно-сірий текст */
+}
+
+.container {
+  max-width: 1000px;
+  margin: 20px auto;
+  background-color: #fff; /* Білий контейнер */
+  padding: 30px;
+  border-radius: 10px; /* Закруглені кути */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Легка тінь */
+}
+
+h1 {
+  text-align: center;
+  color: #5c6bc0; /* Приємний синій колір для заголовка */
+  margin-bottom: 20px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #e3f2fd; /* Світло-блакитна кнопка */
+  color: #1976d2; /* Темно-синій текст кнопки */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #bbdefb; /* Зміна кольору при наведенні */
+}
+
+.input-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.word-lists {
+  display: flex;
+  justify-content: space-around;
+}
+
+.word-list {
+  width: 30%;
+  border: 1px solid #e0e0e0; /* Світліша межа */
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f0f8ff; /* Світлий блакитний фон для списків */
+}
+
+h2 {
+  text-align: center;
+  color: #424242; /* Темніший сірий для заголовків списків */
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  padding: 8px;
+  border-bottom: 1px solid #eee; /* Легка лінія розділення */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.learnButton {
+  background-color: #c8e6c9; /* Світло-зелена кнопка "Вивчено" */
+  color: #2e7d32; /* Темно-зелений текст кнопки "Вивчено" */
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.learnButton:hover {
+  background-color: #a5d6a7; /* Зміна кольору при наведенні */
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+/* ... (інші стилі) ... */
+
+li div {
+  display: flex;
+}
+
+.deleteButton, .speakButton {
+  background-color: #ffcdd2; /* Світло-червона кнопка "Видалити" */
+  color: #d32f2f; /* Темно-червоний текст */
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 5px;
+  transition: transform 0.2s ease;
+}
+
+.deleteButton:hover, .speakButton:hover {
+  background-color: #ef9a9a; /* Зміна кольору при наведенні */
+  transform: scale(0.95); /* Невелика анімація зменшення */
+}
